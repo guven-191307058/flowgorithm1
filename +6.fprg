@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-20 09:55:19 &#214;&#214;"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xODswMTo1MTo0OCDDllM7MjkyNw=="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yMDswOTo1NToxOSDDlsOWOzE7MzE2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, x1, x2" type="Integer" array="False" size=""/>
+            <output expression="&quot;a de&#287;erini gir&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b de&#287;erini gir&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;c de&#287;erini gir&quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="d" expression="b^2-4*a*c"/>
+            <if expression="d&gt;=0">
+                <then>
+                    <assign variable="x1" expression="(-b+d^(1/2))/2*a"/>
+                    <assign variable="x2" expression="(-b-d^(1/2))/2*a"/>
+                    <output expression="&quot;k&#246;k1:&quot;&amp;x1&amp;&quot;k&#246;k2:&quot;&amp;x2" newline="True"/>
+                </then>
+                <else>
+                    <if expression="d&lt;0">
+                        <then>
+                            <output expression="&quot;denklemin k&#246;k&#252; yoktur&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="x1" expression="-b/2*a"/>
+                            <assign variable="x2" expression="-b/2*a"/>
+                            <output expression="&quot;k&#246;k1:&quot;&amp;x1&amp;&quot;k&#246;k2:&quot;&amp;x2" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

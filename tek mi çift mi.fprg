@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-17 11:45:35 &#214;S"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNTsxMToxOToxMyDDllM7MjkyMQ=="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNzsxMTo0NTozNSDDllM7MjszMDM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;" type="Integer" array="False" size=""/>
+            <output expression="&quot;say&#305;y&#305; gir&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <if expression="say&#305;&gt;0">
+                <then>
+                    <if expression="say&#305;%2==1">
+                        <then>
+                            <output expression="&quot;tek say&#305;d&#305;r&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;&#231;ift say&#305;d&#305;r&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="say&#305;" expression="Abs(say&#305;)"/>
+                    <if expression="say&#305;%2==1">
+                        <then>
+                            <output expression="&quot;tek say&#305;d&#305;r&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;&#231;ift say&#305;d&#305;r&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

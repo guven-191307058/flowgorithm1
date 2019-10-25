@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-15 11:08:41 &#214;S"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNTsxMDozODowMSDDllM7MjkxOA=="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNTsxMTowODo0MSDDllM7MTszMDI4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tahmin, rastgele, saya&#231;" type="Integer" array="False" size=""/>
+            <assign variable="saya&#231;" expression="1"/>
+            <assign variable="rastgele" expression="Random(100)"/>
+            <assign variable="tahmin" expression="0"/>
+            <output expression="rastgele" newline="True"/>
+            <output expression="&quot;tahnminini gir l&#252;tfen&quot;" newline="True"/>
+            <do expression="tahmin!=rastgele &amp;&amp; tahmin&gt;0">
+                <input variable="tahmin"/>
+                <if expression="tahmin!=rastgele">
+                    <then>
+                        <if expression="tahmin&lt;rastgele">
+                            <then>
+                                <output expression="&quot;daha b&#252;y&#252;k tahmin girin l&#252;tfen&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;daha k&#252;&#231;&#252;k tahmin girin l&#252;tfen&quot;" newline="True"/>
+                            </else>
+                        </if>
+                        <assign variable="saya&#231;" expression="saya&#231;+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+            <output expression="rastgele &amp; &quot;say&#305;s&#305;n&#305;&quot; &amp;saya&#231; &amp; &quot;defada bildiniz valuable player&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

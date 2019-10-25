@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-24 02:41:09 &#214;&#214;"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yNDswMjoyNTowMSDDlsOWOzMwNDY="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yNDswMjozNTo1MyDDlsOWOzE7YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yMjsxMDo1MjoyNCDDllM7dGFtIGRlxJ9pbC5mcHJnOzc3Mjk="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yNDswMjo0MTowOSDDlsOWOzE7MzE2MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;, n" type="Integer" array="False" size=""/>
+            <output expression="&quot;say&#305; de&#287;erini giriniz&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <assign variable="n" expression="0"/>
+            <while expression="say&#305;!=(n*(n+1))/2&amp;&amp;say&#305;&gt;n">
+                <assign variable="n" expression="n+1"/>
+            </while>
+            <if expression="say&#305;==(n*(n+1))/2">
+                <then>
+                    <output expression="&quot;&#252;&#231;gensel say&#305; girdiniz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#252;&#231;gensel say&#305; de&#287;ildir&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

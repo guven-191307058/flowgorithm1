@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-24 03:19:19 &#214;&#214;"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yNDswMjo0NDowMiDDlsOWOzMwNDg="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yNDswMzoxOToxOSDDlsOWOzE7MzE2Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;, uzunluk, onbinler, binler, onlar, birler" type="Integer" array="False" size=""/>
+            <output expression="&quot;say&#305; de&#287;erini giriniz&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <assign variable="uzunluk" expression="Len(ToString(say&#305;))"/>
+            <assign variable="onbinler" expression="say&#305;/10000"/>
+            <assign variable="binler" expression="(say&#305;/1000)%10"/>
+            <assign variable="onlar" expression="(say&#305;/10)%10"/>
+            <assign variable="birler" expression="say&#305;%10"/>
+            <while expression="uzunluk!=5&amp;&amp;onbinler!=birler&amp;&amp;binler!=onlar">
+                <assign variable="onbinler" expression="say&#305;/10000"/>
+                <assign variable="binler" expression="(say&#305;/1000)%10"/>
+                <assign variable="onlar" expression="(say&#305;/10)%10"/>
+                <assign variable="birler" expression="say&#305;%10"/>
+            </while>
+            <if expression="onbinler==birler&amp;&amp;binler==onlar">
+                <then>
+                    <output expression="&quot;5 basamakl&#305; palindrom say&#305; girdiniz tebrikler!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;5 basamkl&#305; palindrom say&#305; de&#287;ildir maalesef&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

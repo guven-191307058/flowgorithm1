@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-18 12:07:30 &#214;&#214;"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNjswOTo0Mzo0OCDDlsOWOzMwNjU="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xODsxMjowNzozMCDDlsOWOzU7MzE2NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;, y&#252;zler, onlar, binler, birler, uzunluk" type="Integer" array="False" size=""/>
+            <output expression="&quot;say&#305; giriniz&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <assign variable="uzunluk" expression="Len(ToString(say&#305;))"/>
+            <if expression="uzunluk==4">
+                <then>
+                    <if expression="say&#305;&lt;0">
+                        <then>
+                            <output expression="&quot;negatif say&#305; girdiniz&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="binler" expression="(say&#305;/1000)^2"/>
+                            <assign variable="y&#252;zler" expression="((say&#305;/100)%10)^2"/>
+                            <assign variable="onlar" expression="((say&#305;/10)%10)^2"/>
+                            <assign variable="birler" expression="(say&#305;%10)^2"/>
+                            <output expression="&quot;toplam:&quot;&amp;y&#252;zler+onlar+binler+birler" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <do expression="uzunluk!=4">
+                        <output expression="&quot;4 basamakl&#305; say&#305; giriniz&quot;" newline="True"/>
+                        <input variable="say&#305;"/>
+                        <assign variable="uzunluk" expression="Len(ToString(say&#305;))"/>
+                    </do>
+                    <assign variable="binler" expression="(say&#305;/1000)^2"/>
+                    <assign variable="y&#252;zler" expression="((say&#305;/100)%10)^2"/>
+                    <assign variable="onlar" expression="((say&#305;/10)%10)^2"/>
+                    <assign variable="birler" expression="(say&#305;%10)^2"/>
+                    <output expression="&quot;toplam:&quot;&amp;y&#252;zler+onlar+binler+birler" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

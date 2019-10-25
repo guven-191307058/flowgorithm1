@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-16 11:36:00 &#214;S"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNjsxMToyOTo0MyDDllM7MjkyNg=="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNjsxMTozNjowMCDDllM7MTszMDI1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s&#305;cakl&#305;k" type="Integer" array="False" size=""/>
+            <output expression="&quot;s&#305;acakl&#305;k de&#287;eri girin&quot;" newline="True"/>
+            <input variable="s&#305;cakl&#305;k"/>
+            <if expression="s&#305;cakl&#305;k&lt;0">
+                <then>
+                    <output expression="&quot;su kat&#305; haldedir!!!&quot;" newline="False"/>
+                </then>
+                <else>
+                    <if expression="s&#305;cakl&#305;k&gt;100">
+                        <then>
+                            <output expression="&quot;su gaz haldedir!!!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;su s&#305;v&#305; haldedir!!!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

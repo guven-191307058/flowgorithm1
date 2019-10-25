@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 12:36:05 &#214;&#214;"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yNTsxMjozMzowNyDDlsOWOzMwNTM="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yNTsxMjozNjowNSDDlsOWOzE7MzE2Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;" type="Integer" array="False" size=""/>
+            <output expression="&quot;say&#305; de&#287;erini girin&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <if expression="say&#305;&gt;0">
+                <then>
+                    <output expression="&quot;say&#305; pozitif'tir&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="say&#305;&lt;0">
+                        <then>
+                            <output expression="&quot;say&#305; negatif'tir&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;say&#305; s&#305;f&#305;r'a e&#351;ittir&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

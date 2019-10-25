@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-16 11:24:48 &#214;S"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNjsxMToxMToyNyDDllM7MjkxOQ=="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNjsxMToyNDo0OCDDllM7MTszMDM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="k&#305;sakenar, uzunkenar, &#231;evre, alan" type="Integer" array="False" size=""/>
+            <output expression="&quot;uzunkenar&#305; girin&quot;" newline="True"/>
+            <input variable="uzunkenar"/>
+            <output expression="&quot;k&#305;sakenar&#305; girin&quot;" newline="True"/>
+            <input variable="k&#305;sakenar"/>
+            <output expression="&quot;&#231;evre:&quot;&amp;k&#305;sakenar+uzunkenar+uzunkenar+k&#305;sakenar&amp;&quot;alan:&quot;&amp;k&#305;sakenar*uzunkenar" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

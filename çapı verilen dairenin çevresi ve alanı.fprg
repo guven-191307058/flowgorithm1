@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-17 10:50:01 &#214;S"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNjsxMTo1MjowMCDDllM7MjkxNQ=="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNzsxMDo1MDowMSDDllM7MjszMDIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="&#231;evre, alan, &#231;ap" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#231;ap de&#287;eri girin l&#252;tfen&quot;" newline="True"/>
+            <input variable="&#231;ap"/>
+            <output expression="&quot;&#231;evre:&quot;&amp;2*&#231;ap*pi&amp;&quot;alan:&quot;&amp;pi*(&#231;ap)^2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

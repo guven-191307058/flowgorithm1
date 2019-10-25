@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 12:19:10 &#214;&#214;"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yMjsxMDo1MjoyNCDDllM7MjkxNw=="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yNTsxMjoxOToxMCDDlsOWOzI7MzE2MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="&#231;iftsay&#305;lar" type="Integer" array="True" size="10"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="j" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <assign variable="&#231;iftsay&#305;lar[i]" expression="Random(100)"/>
+            </for>
+            <for variable="j" start="0" end="9" direction="inc" step="1">
+                <output expression="&quot;dizi:&quot;&amp;&#231;iftsay&#305;lar[j]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

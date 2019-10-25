@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-17 12:14:11 &#214;&#214;"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNzsxMjowMjo0MCDDlsOWOzMwNDc="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0xNzsxMjoxNDoxMSDDlsOWOzE7MzE1Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yaz&#305;l&#305;1, yaz&#305;l&#305;2, s&#246;zl&#252;, ortalaman" type="Real" array="False" size=""/>
+            <output expression="&quot;yaz&#305;l&#305;1 notunu gir l&#252;tfen&quot;" newline="True"/>
+            <input variable="yaz&#305;l&#305;1"/>
+            <output expression="&quot;yaz&#305;l&#305;2 notunu gir l&#252;tfen&quot;" newline="True"/>
+            <input variable="yaz&#305;l&#305;2"/>
+            <output expression="&quot;s&#246;zl&#252; notunu gir l&#252;tfen&quot;" newline="True"/>
+            <input variable="s&#246;zl&#252;"/>
+            <assign variable="ortalaman" expression="(yaz&#305;l&#305;1+yaz&#305;l&#305;2+s&#246;zl&#252;)/3"/>
+            <if expression="ortalaman&lt;50">
+                <then>
+                    <output expression="&quot;dersten kald&#305;n&#305;z&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;dersten ge&#231;tiniz TEBR&#304;KLER!!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

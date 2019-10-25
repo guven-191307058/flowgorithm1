@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 12:31:52 &#214;&#214;"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yNTsxMjoyNjoyOSDDlsOWOzMwNTk="/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtQkNVVDlFUUk7MjAxOS0xMC0yNTsxMjozMTo1MiDDlsOWOzE7MzE1OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="birincisay&#305;, ikincisay&#305;" type="Integer" array="False" size=""/>
+            <output expression="&quot;birincisay&#305; de&#287;erini girin&quot;" newline="True"/>
+            <input variable="birincisay&#305;"/>
+            <output expression="&quot;ikincisay&#305; de&#287;erini girin&quot;" newline="True"/>
+            <input variable="ikincisay&#305;"/>
+            <if expression="ikincisay&#305;&lt;birincisay&#305;">
+                <then>
+                    <output expression="&quot;birincisay&#305; b&#252;y&#252;kt&#252;r ikincisay&#305;'dan&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="ikincisay&#305;&gt;birincisay&#305;">
+                        <then>
+                            <output expression="&quot;ikincisay&#305; b&#252;y&#252;kt&#252;r birincisay&#305;'dan&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;ikincisay&#305; e&#351;ittir birincisay&#305;'ya&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
